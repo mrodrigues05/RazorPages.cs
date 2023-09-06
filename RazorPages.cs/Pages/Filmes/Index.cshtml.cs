@@ -19,6 +19,7 @@ namespace RazorPages.cs.Pages.Filmes
             _context = context;
         }
 
+        //jogou o Filme para
         public IList<Filme> Filme { get;set; } = default!;
 
         public async Task OnGetAsync()
